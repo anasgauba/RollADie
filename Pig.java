@@ -47,22 +47,13 @@ public class Pig {
             System.out.println();
             System.out.println("You rolled a " + dieRoll);
                         
-            if (dieRoll == 1) {
-                /**
-                if (track == 1) {
-                    totalPoint1 = 0;
-                }
-                else {
-                    totalPoint2 = 0;                    
-                }
-                */               
+            if (dieRoll == 1) {            
                 if (track == 1) {
                     track = 2;
                 }
                 else {
                     track = 1;
-                }
-                
+                }                
                 playerScore = 0;
                 System.out.println();
                 System.out.println(score + " " + totalPoint1 + "-" + totalPoint2);
